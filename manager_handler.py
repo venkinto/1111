@@ -18,7 +18,7 @@ async def contact_info(update: Update, context: CallbackContext):
     reply_markup = InlineKeyboardMarkup(keyboard)
 
     await update.message.reply_text(
-        "📞 Вы можете позвонить нам по номеру: +7 (999) 123-45-67\n"
+        "📞 Вы можете позвонить нам по номеру: +7 916 906-96-65\n"
         "Или позвать менеджера в чат.",
         reply_markup=reply_markup
     )
